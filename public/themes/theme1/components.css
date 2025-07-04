@@ -1,0 +1,32 @@
+/* Theme1 - Blue Ocean Components */
+
+/* Import base styles */
+@import url('../default/components.css');
+
+/* Blue theme overrides */
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  border: none;
+  border-radius: var(--border-radius-lg);
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: var(--text-white);
+  border-bottom: none;
+}
+
+.navbar {
+  background: linear-gradient(135deg, var(--bg-primary), var(--bg-secondary));
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link:hover {
+  background: var(--primary-color);
+  color: var(--text-white);
+}

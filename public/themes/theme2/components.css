@@ -1,0 +1,37 @@
+/* Theme2 - Purple Sunset Components */
+
+/* Import base styles */
+@import url('../default/components.css');
+
+/* Purple theme overrides */
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  border: none;
+  border-radius: var(--border-radius-lg);
+}
+
+.card {
+  border: 2px solid var(--border-color);
+  box-shadow: 0 4px 8px rgba(139, 92, 246, 0.2);
+}
+
+.card-header {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: var(--text-white);
+  border-bottom: none;
+}
+
+.navbar {
+  background: linear-gradient(135deg, var(--primary-color), var(--bg-primary));
+  box-shadow: 0 2px 4px rgba(139, 92, 246, 0.2);
+}
+
+.nav-link:hover {
+  background: var(--secondary-color);
+  color: var(--text-white);
+}
+
+.form-input:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.2);
+}
